@@ -1,0 +1,8 @@
+cmd + x # delete line
+cmd + t # switch words
+cmd + i # select whole line
+cmd + shift + up # moves whole line
+cmd + m # select all up to bracket end
+ctrl+j  # join line below to the end of the current line
+ctrl+p  # file search
+ctrl+/: comment/uncomment current line
