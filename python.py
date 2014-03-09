@@ -73,3 +73,12 @@ Log = namedtuple("LogEntry", ("level", "message"))
 #Three modules you absolutely need:unittest, mock and coverage. 
 #Its amazing how many bugs you can find by going for (near)
 # 100% code coverage.
+
+# using zip to invert dict
+mi = dict(zip(m.values(), m.keys()))
+mi = {v: k for (k, v) in m.iteritems()}
+
+# flatten a list
+a = [[1, 2], [3, 4], [5, 6]]
+>>> b = [x for l in a for x in l]
+flatten = lambda x: [y for l in x for y in flatten(l)] if type(x) is list else [x]
