@@ -1,0 +1,1 @@
+"ororo".indexOf("gaga");
