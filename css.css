@@ -1,0 +1,2 @@
+/* set width relative to browser width */ 
+img,canvas,iframe,video,svg{max-width:100%}
