@@ -1,2 +1,16 @@
 /* set width relative to browser width */ 
-img,canvas,iframe,video,svg{max-width:100%}
+img,canvas,iframe,video,svg{
+    max-width:100%;
+}
+
+p {
+    color:red;
+    text-align:center;
+}
+
+
+/* 
+Table cell fixed length: 
+    just do <td><div class="fixed width"> bla-bla
+
+*/
