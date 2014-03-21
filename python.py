@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
-или чтобы подчеркнуть что второй
+# or to emphasize its python2
 #!/usr/bin/python2
 
 
