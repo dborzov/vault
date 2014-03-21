@@ -11,3 +11,8 @@ print Dog.__mro__ # method resolution object
 def say(what, **kargs):
     print what
 say(what="ho ho ho!") 
+
+# class of an instance
+instance.__class__.__name__
+
+

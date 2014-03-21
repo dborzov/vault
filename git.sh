@@ -5,3 +5,8 @@ git reset --hard HEAD^ # irreversibly rollback a commit
 git checkout origin/master -- filename # rollback a file
 git submodule --update # sync the submodule git repo manually
 
+
+# setting to use ssl keys for authentication
+git config --local --edit
+# url = https://github.com/sowingocorp/api --> url = git@github.com:sowingocorp/api
+

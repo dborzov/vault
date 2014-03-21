@@ -31,10 +31,10 @@ sys.argv[1]
 print 'File title: %s and %d ' % (title, digit)
 
 ###############################
-# удаляеет каретку энтер
+# clears whitespace
 'whoah \n'.rstrip()
-unichr(62) == u'>' # из инта в букву в юникод
-chr(62) == '>' # из инта в букву в анси!
+unichr(62) == u'>' # int to unicode character
+chr(62) == '>' # ..to ansii
 
 ###############################
 # разделить на лист строчечек
