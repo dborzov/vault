@@ -10,3 +10,9 @@ git submodule --update # sync the submodule git repo manually
 git config --local --edit
 # url = https://github.com/sowingocorp/api --> url = git@github.com:sowingocorp/api
 
+# remove cashed file
+git rm --cached file.txt
+
+# show list of affected files for a commit
+git diff-tree --no-commit-id --name-only -r bd61ad98
+
