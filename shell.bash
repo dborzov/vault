@@ -18,3 +18,11 @@ lsof -i :5002
 
 # kill process by PID
 kill -9 PID
+
+
+# if I want to combine stderr and stdout into the stdout stream
+# for further manipulation, I can append the following on the end of my command: 2>&1
+python 2>&1
+
+find . -name '*.pyc' -delete # delete with subfolders
+
