@@ -26,3 +26,15 @@ python 2>&1
 
 find . -name '*.pyc' -delete # delete with subfolders
 
+# list enviroment variables
+env
+EDITOR=subl -w # editor for git stuff
+
+
+hostname # see hostname
+
+pip install -r requirements.txt # reqierements
+
+python -v #versioning
+
+date #timestamp
