@@ -3,6 +3,7 @@ uname -m # see architecture, like x86_64
 uname # OS name :)
 
 #user management
+# https://www.digitalocean.com/community/articles/initial-server-setup-with-ubuntu-12-04
 passwd
 adduser joe
 
@@ -26,3 +27,10 @@ screen -r name # to attach
 #set up ssh public key
 scp .ssh/id_rsa.pub username@hostname.com:~
 cat id_rsa.pub >> .ssh/authorized_keys
+
+# nginx config
+sudo mkdir -p /var/www/example.com/public_html
+nano /etc/nginx/sites-available/default # config file
+/usr/share/nginx/www # default serving folder
+ifconfig # see connection info
+update-rc.d nginx defaults # to add to services list
