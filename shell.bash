@@ -38,3 +38,6 @@ pip install -r requirements.txt # reqierements
 python -v #versioning
 
 date #timestamp
+
+python -m SimpleHTTPServer
+(cd public && python -m SimpleHTTPServer)

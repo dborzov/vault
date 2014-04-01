@@ -18,6 +18,4 @@ git diff-tree --no-commit-id --name-only -r bd61ad98
 # go back a commit
 git reset --hard HEAD~
 
-python -m SimpleHTTPServer
-(cd public && python -m SimpleHTTPServer)
 
