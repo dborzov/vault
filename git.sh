@@ -18,4 +18,7 @@ git diff-tree --no-commit-id --name-only -r bd61ad98
 # go back a commit
 git reset --hard HEAD~
 
+ssh-add -l # list ssh
+chmod 600 file # to please their permission demands
+
 
