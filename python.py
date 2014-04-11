@@ -81,3 +81,4 @@ mi = {v: k for (k, v) in m.iteritems()}
 a = [[1, 2], [3, 4], [5, 6]]
 >>> b = [x for l in a for x in l]
 flatten = lambda x: [y for l in x for y in flatten(l)] if type(x) is list else [x]
+

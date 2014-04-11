@@ -21,4 +21,9 @@ git reset --hard HEAD~
 ssh-add -l # list ssh
 chmod 600 file # to please their permission demands
 
+#pulling remote branches
+git branch -r # see remote branches
+git fetch origin prod
+git checkout prod
+
 
