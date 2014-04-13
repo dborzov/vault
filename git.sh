@@ -26,4 +26,15 @@ git branch -r # see remote branches
 git fetch origin prod
 git checkout prod
 
+# gitconfig
+[alias]
+    lg  = log --graph --decorate
+    llg = log --oneline --graph --decorate
+    ll  = log --oneline
 
+    dc = diff --cached
+    st = status --short
+    ci = commit
+    rb = rebase
+    br = branch
+    co = checkout

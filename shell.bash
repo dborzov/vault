@@ -9,6 +9,7 @@ file -I word_corpus.txt
 chmod 755 myscript.sh 
 #----------------------------------------------
 
+cd - #previous directory
 
 # plots tree directory structure
 tree -a
