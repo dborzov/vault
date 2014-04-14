@@ -38,3 +38,5 @@ git checkout prod
     rb = rebase
     br = branch
     co = checkout
+
+ssh-add -K # to add keys to macos keychain
