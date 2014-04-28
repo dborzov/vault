@@ -5,3 +5,6 @@ telnet yahoo.com
 
 # DNS server lookup algorithm
 dig lenta.ru
+
+mtr google.com
+traceroute borzov.ca

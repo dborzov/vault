@@ -39,4 +39,13 @@ git checkout prod
     br = branch
     co = checkout
 
-ssh-add -K # to add keys to macos keychain
+# to add keys to macos keychain
+ssh-add -K
+
+# recover file deleted from commit
+git checkout <deleting_commit>^ -- <file_path> 
+
+# to resolve merge conflict:
+for merge commit anew
+for rebase: git rebase --abort or git rebase --continue
+
