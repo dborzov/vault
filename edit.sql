@@ -2,7 +2,7 @@ update
        courier 
     set
        id="In-House Driver"
-datatype    where 
+   where 
        name="In-House Driver";
 
 
