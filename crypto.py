@@ -1,0 +1,1 @@
+hashlib.sha1(fh.read()).hexdigest() #sha1 things!
