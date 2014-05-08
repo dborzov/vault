@@ -42,3 +42,5 @@ date #timestamp
 
 python -m SimpleHTTPServer
 (cd public && python -m SimpleHTTPServer)
+
+df -h # check free space
